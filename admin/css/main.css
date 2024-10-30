@@ -1,0 +1,320 @@
+.inlinks-right {
+	float: right
+}
+.inlinks-help{text-decoration: none;}
+
+.inlinks_activate {
+	border: 1px solid #4f800d;
+	padding: 5px;
+	margin: 15px 0;
+	background: #83af24;
+	background-image: -webkit-gradient(linear, 0 0, 80% 100%, from(#83af24), to(#4f800d));
+	background-image: -moz-linear-gradient(80% 100% 120deg, #4f800d, #83af24);
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: relative;
+	overflow: hidden
+}
+
+@media (max-width:782px) {
+	.inlinks_activate {
+		min-width: 0
+	}
+}
+
+@media (max-width:850px) {
+	.inlinks_activate {
+		min-width: 0
+	}
+}
+
+.inlinks-masthead .inlinks-masthead__inside-container {
+	background-color: #3E748F;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 0 1px 0 rgba(200, 215, 225, .5), 0 1px 2px #e9eff3
+}
+
+@media (max-width:45rem) {
+	.inlinks-masthead {
+		padding: 0 1.25rem
+	}
+}
+
+.inlinks-masthead__inside-container {
+	padding: .375rem 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 45rem;
+	text-align: left
+}
+
+.inlinks-masthead__logo-container {
+	padding: .3125rem 0 0
+}
+
+.inlinks-masthead__logo {
+	width: 10.375rem;
+	height: 2.8125rem;
+}
+
+.inlinks-lower {
+	margin: 0 auto;
+	text-align: left;
+	max-width: 45rem;
+	padding: 1.5rem
+}
+
+.inlinks-masthead__logo-container:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.inlinks-masthead .inlinks-right {
+	line-height: 2.125rem;
+	font-size: .9rem
+}
+
+.inlinks-box {
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid rgba(200, 215, 225, .5)
+}
+
+.inlinks-box h2,
+.inlinks-box h3 {
+	padding: 1.5rem 1.5rem .5rem 1.5rem;
+	margin: 0
+}
+
+.inlinks-box p {
+	padding: 0 1.5rem 1.5rem 1.5rem;
+	margin: 0
+}
+
+.inlinks-box p:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.inlinks-box .inlinks-right {
+	padding-right: 1.5rem
+}
+
+.inlinks-boxes .inlinks-box {
+	margin-bottom: 0;
+	padding: 0;
+	margin-top: -1px
+}
+
+.inlinks-boxes .inlinks-box:last-child {
+	margin-bottom: 1.5rem
+}
+
+.inlinks-boxes .inlinks-box:first-child {
+	margin-top: 1.5rem
+}
+
+.inlinks-box-header {
+	max-width: 700px;
+	margin: 0 auto 40px auto;
+	line-height: 1.5
+}
+
+.inlinks-box-header h2 {
+	margin: 1.5rem 10% 0;
+	font-size: 1.375rem;
+	font-weight: 700;
+	color: #000
+}
+
+.inlinks-box .centered {
+	text-align: center
+}
+
+.inlinks-enter-api-key-box {
+	margin: 1.5rem 0
+}
+
+.inlinks-box .enter-api-key {
+	display: none;
+	margin-top: 1.5rem
+}
+
+.inlinks-box .enter-api-key p {
+	padding: 0 1.5rem
+}
+
+.inlinks-button,
+.inlinks-button:hover,
+.inlinks-button:visited {
+	background: #fff;
+	border-color: #c8d7e1;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	color: #2e4453;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	outline: 0;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 500;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	vertical-align: top;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 21px;
+	border-radius: 4px;
+	padding: 7px 14px 9px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+.inlinks-button:hover {
+	border-color: #a8bece
+}
+
+.inlinks-button:active {
+	border-width: 2px 1px 1px
+}
+
+.inlinks-is-primary,
+.inlinks-is-primary:hover,
+.inlinks-is-primary:visited {
+	background: #00aadc;
+	border-color: #0087be;
+	color: #fff
+}
+
+.inlinks-is-primary:focus,
+.inlinks-is-primary:hover {
+	border-color: #005082
+}
+
+.inlinks-is-primary:hover {
+	border-color: #005082
+}
+
+.inlinks-setup-instructions {
+	text-align: center
+}
+
+.inlinks-setup-instructions form {
+	padding-bottom: 1.5rem
+}
+.inlinks-enter-api-key-box {
+	margin: 1.5rem 0;
+}
+.inlinks-input-key{
+	flex-grow: 1;
+    margin-right: 1rem;
+}
+.inlinks-alert.inlinks-critical {
+    background-color: #993300;
+}
+.inlinks-alert {
+    border: 1px solid #e5e5e5;
+    padding: 0.4em 1em 1.4em 1em;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+}
+.inlinks-alert h3.inlinks-key-status {
+    color: #fff;
+    margin: 1em 0 0.5em 0;
+}
+
+.inlinks-alert.inlinks-active {
+    background-color: #649316;
+}
+.inlinks-card {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    position: relative;
+    margin: 0 auto 0.625rem auto;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 0 0 1px rgba(200, 215, 225, 0.5), 0 1px 2px #e9eff3;
+}
+.inlinks-section-header {
+    position: relative;
+    margin: 0 auto 0.625rem auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgba(200, 215, 225, 0.5), 0 1px 2px #e9eff3;
+    background: #ffffff;
+    width: 100%;
+    padding-top: 0.6875rem;
+    padding-bottom: 0.6875rem;
+    display: flex;
+}
+.inlinks-section-header__label {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    line-height: 1.75rem;
+    position: relative;
+    font-size: 0.875rem;
+    color: #4f748e;
+}
+.inlinks-card .inside {
+    padding: 1.5rem;
+    padding-top: 1rem;
+}
+.inlinks-settings th.inlinks-api-key {
+    vertical-align: middle;
+    padding-top: 0;
+}
+.inlinks-settings input[type=text] {
+    width: 75%;
+}
+#gdvd-publishing-action {
+    text-align: right;
+    float: right;
+    line-height: 1.9;
+}
+.inlinks-button, .inlinks-button:hover, .inlinks-button:visited {
+    background: white;
+    border-color: #c8d7e1;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #2e4453;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 4px;
+    padding: 7px 14px 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.inlinks-button:hover {
+    border-color: #a8bece;
+}
+.inlinks-card .inlinks-card-actions {
+    margin-top: 1rem;
+}
